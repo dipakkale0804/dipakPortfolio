@@ -1,0 +1,65 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" rx="16" fill="#0E0E11"/>
+  <defs>
+    <radialGradient id="glow6" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FB923C" stop-opacity="0.2"/>
+      <stop offset="60%" stop-color="#1C120C" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0E0E11" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid6" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" rx="16" fill="url(#grid6)"/>
+  <circle cx="400" cy="225" r="280" fill="url(#glow6)"/>
+  
+  <!-- DevOps Infrastructure Architecture Mockup -->
+  <g transform="translate(170, 85)">
+    <rect width="460" height="260" rx="16" fill="#131318" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1"/>
+    <!-- Top Bar -->
+    <rect x="0" y="0" width="460" height="42" rx="16" fill="#191922" fill-opacity="0.9"/>
+    <text x="24" y="26" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="12" font-weight="600">AWS EC2 Production Cluster (Nginx + Docker)</text>
+    <rect x="360" y="11" width="80" height="20" rx="6" fill="#22C55E" fill-opacity="0.2"/>
+    <text x="400" y="25" fill="#4ADE80" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">SSL Verified</text>
+
+    <!-- Architecture Boxes -->
+    <g transform="translate(24, 60)">
+      <!-- Client Traffic -->
+      <rect x="0" y="20" width="85" height="65" rx="8" fill="#1A1A26" stroke="#FFFFFF" stroke-opacity="0.1"/>
+      <text x="42" y="48" fill="#EDEDED" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">HTTPS</text>
+      <text x="42" y="65" fill="#71717A" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">Port 443</text>
+
+      <!-- Arrow -->
+      <path d="M 90 52 L 120 52" stroke="#FB923C" stroke-width="2" stroke-dasharray="3 3"/>
+
+      <!-- Nginx Reverse Proxy -->
+      <rect x="125" y="10" width="105" height="85" rx="10" fill="#1E1E2C" stroke="#22C55E" stroke-opacity="0.4"/>
+      <text x="177" y="38" fill="#4ADE80" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Nginx Proxy</text>
+      <text x="177" y="55" fill="#A1A1AA" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">SSL Termination</text>
+      <text x="177" y="70" fill="#71717A" font-family="system-ui, sans-serif" font-size="8" text-anchor="middle">Gzip &amp; Rate Limit</text>
+
+      <!-- Arrow split -->
+      <path d="M 235 52 L 265 52" stroke="#FB923C" stroke-width="2"/>
+
+      <!-- Docker Container Cluster -->
+      <rect x="270" y="0" width="140" height="105" rx="10" fill="#1A1A26" stroke="#FB923C" stroke-opacity="0.5"/>
+      <text x="340" y="24" fill="#FDBA74" font-family="system-ui, sans-serif" font-size="11" font-weight="600" text-anchor="middle">Docker Compose</text>
+      
+      <rect x="282" y="35" width="116" height="26" rx="5" fill="#242436"/>
+      <text x="340" y="52" fill="#EDEDED" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">App Container (:8080)</text>
+
+      <rect x="282" y="67" width="116" height="26" rx="5" fill="#242436"/>
+      <text x="340" y="84" fill="#EDEDED" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">MySQL Container (:3306)</text>
+    </g>
+
+    <!-- Terminal Status Line -->
+    <rect x="24" y="180" width="412" height="58" rx="8" fill="#0C0C10" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <text x="36" y="202" fill="#4ADE80" font-family="monospace" font-size="10">$ docker compose ps --status running</text>
+    <text x="36" y="222" fill="#71717A" font-family="monospace" font-size="9">Up 42 days (healthy) · 0 memory leaks · Auto-restart on failure</text>
+  </g>
+
+  <!-- Tag Pill -->
+  <rect x="40" y="380" width="150" height="32" rx="16" fill="#181820" stroke="#FB923C" stroke-opacity="0.3"/>
+  <circle cx="56" cy="396" r="4" fill="#FB923C"/>
+  <text x="68" y="401" fill="#FDBA74" font-family="system-ui, sans-serif" font-size="12" font-weight="600">DevOps &amp; Cloud</text>
+</svg>

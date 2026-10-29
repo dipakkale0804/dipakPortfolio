@@ -1,0 +1,57 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" rx="16" fill="#0E0E11"/>
+  <defs>
+    <radialGradient id="glow4" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FF6363" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#1F1012" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0E0E11" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid4" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" rx="16" fill="url(#grid4)"/>
+  <circle cx="400" cy="225" r="280" fill="url(#glow4)"/>
+  
+  <!-- Browser Window Mockup -->
+  <g transform="translate(180, 85)">
+    <rect width="440" height="260" rx="16" fill="#131318" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1"/>
+    <!-- Browser Top Bar -->
+    <rect x="0" y="0" width="440" height="38" rx="16" fill="#191922" fill-opacity="0.9"/>
+    <circle cx="24" cy="19" r="4" fill="#FF5F56"/>
+    <circle cx="38" cy="19" r="4" fill="#FFBD2E"/>
+    <circle cx="52" cy="19" r="4" fill="#27C93F"/>
+    <rect x="80" y="9" width="280" height="20" rx="6" fill="#111115"/>
+    <text x="220" y="23" fill="#71717A" font-family="system-ui, sans-serif" font-size="10" text-anchor="middle">https://gusto-artisan-restaurant.com</text>
+
+    <!-- Hero Mockup Inside Site -->
+    <rect x="24" y="55" width="230" height="18" rx="4" fill="#EDEDED"/>
+    <rect x="24" y="80" width="160" height="8" rx="3" fill="#71717A"/>
+    <rect x="24" y="94" width="130" height="8" rx="3" fill="#71717A"/>
+    <rect x="24" y="115" width="90" height="28" rx="6" fill="#FF6363"/>
+    <text x="69" y="133" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Book a Table</text>
+
+    <!-- Side Menu / Food Visual Cards -->
+    <rect x="270" y="55" width="146" height="88" rx="8" fill="#1A1A24" stroke="#FFFFFF" stroke-opacity="0.08"/>
+    <circle cx="343" cy="92" r="24" fill="#FF6363" fill-opacity="0.15"/>
+    <text x="343" y="97" fill="#FFA8A8" font-family="system-ui, sans-serif" font-size="10" font-weight="600" text-anchor="middle">Artisan Menu</text>
+
+    <!-- Bottom Feature Grid -->
+    <rect x="24" y="160" width="124" height="68" rx="8" fill="#171720"/>
+    <text x="36" y="180" fill="#EDEDED" font-family="system-ui, sans-serif" font-size="10" font-weight="600">Table Reservation</text>
+    <text x="36" y="196" fill="#71717A" font-family="system-ui, sans-serif" font-size="9">Instant SMS Confirm</text>
+
+    <rect x="158" y="160" width="124" height="68" rx="8" fill="#171720"/>
+    <text x="170" y="180" fill="#EDEDED" font-family="system-ui, sans-serif" font-size="10" font-weight="600">Dynamic Menu</text>
+    <text x="170" y="196" fill="#71717A" font-family="system-ui, sans-serif" font-size="9">Seasonal Specials</text>
+
+    <rect x="292" y="160" width="124" height="68" rx="8" fill="#171720"/>
+    <text x="304" y="180" fill="#EDEDED" font-family="system-ui, sans-serif" font-size="10" font-weight="600">SEO &amp; Local Reach</text>
+    <text x="304" y="196" fill="#71717A" font-family="system-ui, sans-serif" font-size="9">100/100 Core Vitals</text>
+  </g>
+
+  <!-- Tag Pill -->
+  <rect x="40" y="380" width="150" height="32" rx="16" fill="#181820" stroke="#FF6363" stroke-opacity="0.3"/>
+  <circle cx="56" cy="396" r="4" fill="#FF6363"/>
+  <text x="68" y="401" fill="#FFA8A8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Web Development</text>
+</svg>

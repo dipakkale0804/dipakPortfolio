@@ -1,19 +1,24 @@
 {
-  "name": "temp-app",
+  "name": "dipak-portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "eslint"
   },
   "dependencies": {
+    "@tailwindcss/postcss": "^4.3.3",
+    "framer-motion": "^14.6.0",
+    "lucide-react": "^1.61.0",
     "next": "16.4.3",
+    "postcss": "^8.5.32",
     "react": "19.3.0",
     "react-dom": "19.3.0"
   },
   "devDependencies": {
+    "@next/bundle-analyzer": "^16.4.3",
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

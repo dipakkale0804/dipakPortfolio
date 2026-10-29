@@ -1,0 +1,47 @@
+<svg width="800" height="450" viewBox="0 0 800 450" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="800" height="450" rx="16" fill="#0E0E11"/>
+  <defs>
+    <radialGradient id="glow2" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#FF5277" stop-opacity="0.22"/>
+      <stop offset="60%" stop-color="#1A1118" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#0E0E11" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid2" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="450" rx="16" fill="url(#grid2)"/>
+  <circle cx="400" cy="225" r="280" fill="url(#glow2)"/>
+  
+  <!-- Chatbot Interface Mockup -->
+  <g transform="translate(200, 75)">
+    <rect width="400" height="280" rx="16" fill="#131318" stroke="#FFFFFF" stroke-opacity="0.1" stroke-width="1"/>
+    <!-- Chat Header -->
+    <rect x="0" y="0" width="400" height="46" rx="16" fill="#191922" fill-opacity="0.9"/>
+    <circle cx="28" cy="23" r="7" fill="#FF5277"/>
+    <text x="44" y="27" fill="#FFFFFF" font-family="system-ui, sans-serif" font-size="12" font-weight="600">Enterprise AI Assistant (RAG)</text>
+    <rect x="330" y="16" width="50" height="18" rx="9" fill="#22C55E" fill-opacity="0.2"/>
+    <text x="355" y="29" fill="#4ADE80" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle">Online</text>
+    
+    <!-- User bubble -->
+    <rect x="130" y="65" width="245" height="40" rx="12" fill="#242432"/>
+    <text x="145" y="90" fill="#EDEDED" font-family="system-ui, sans-serif" font-size="11">Do you support custom API webhooks?</text>
+    
+    <!-- Bot bubble -->
+    <rect x="25" y="120" width="310" height="75" rx="12" fill="#1E1E28" stroke="#FF5277" stroke-opacity="0.3"/>
+    <text x="40" y="142" fill="#FF94A8" font-family="system-ui, sans-serif" font-size="11" font-weight="600">AI Support · LangChain RAG</text>
+    <text x="40" y="162" fill="#D4D4D8" font-family="system-ui, sans-serif" font-size="11">Yes, all tiers include bi-directional webhooks</text>
+    <text x="40" y="180" fill="#D4D4D8" font-family="system-ui, sans-serif" font-size="11">with HMAC verification and retry queuing.</text>
+
+    <!-- Typing prompt input -->
+    <rect x="25" y="215" width="350" height="42" rx="10" fill="#181820" stroke="#FFFFFF" stroke-opacity="0.1"/>
+    <text x="40" y="241" fill="#71717A" font-family="system-ui, sans-serif" font-size="11">Ask a question or request a demo...</text>
+    <circle cx="350" cy="236" r="12" fill="#FF5277"/>
+    <path d="M 346 236 L 354 236 M 351 232 L 355 236 L 351 240" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Tag Pill -->
+  <rect x="40" y="380" width="120" height="32" rx="16" fill="#181820" stroke="#FF5277" stroke-opacity="0.3"/>
+  <circle cx="56" cy="396" r="4" fill="#FF5277"/>
+  <text x="68" y="401" fill="#FF94A8" font-family="system-ui, sans-serif" font-size="12" font-weight="600">AI Chatbots</text>
+</svg>
